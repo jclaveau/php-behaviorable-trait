@@ -1,12 +1,21 @@
 {
     "name": "jclaveau/php-behaviorable-trait",
+    "description": "Multiple inheritance defined at runtime for PHP 5.4+ (Inspired by Yii's Behavior)",
     "license": "MIT",
+	"keywords": ["standalone","behavior","trait","multiple inheritance","runtime"],
+    "authors": [
+        {
+            "name": "Jean Claveau",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4" : {
             "JClaveau\\PhpBehaviorableTrait\\" : "src"
         }
     },
     "require": {
+        "php": ">=5.4.0",
         "phpunit/phpunit": "5.0.*"
     }
 }

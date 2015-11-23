@@ -1,0 +1,11 @@
+{
+    "name": "jclaveau/php-behaviorable-trait",
+    "autoload": {
+        "psr-4" : {
+            "JClaveau\\PhpBehaviorableTrait\\" : "src"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "5.0.*"
+    }
+}

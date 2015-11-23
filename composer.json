@@ -1,5 +1,6 @@
 {
     "name": "jclaveau/php-behaviorable-trait",
+    "license": "MIT",
     "autoload": {
         "psr-4" : {
             "JClaveau\\PhpBehaviorableTrait\\" : "src"
